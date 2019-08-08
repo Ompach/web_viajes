@@ -1,0 +1,74 @@
+/* ------------------------------ ESCRITORIO (XL REVISAMOS EN 1366PX EN ADELANTE) ----------------------------- */
+*{
+    font-family: Roboto, sans-serif;
+
+/* ---font-family: 'Palanquin', sans-serif; --- */
+}
+ul,ol{
+    list-style: none;
+}
+a:visited, a:link, a:focus, a:hover, a:active{
+    list-style: none;
+    text-decoration: none;
+}
+
+/* ---------- cabecera ------------ */
+header .logotipo{
+    width:35%;
+}
+
+header .redes ul li i{
+width: 35px;
+line-height: 35px;
+text-align: center;
+cursor: pointer;
+
+}
+
+.redes ul li i.fa-facebook-square{
+    background: #1e3799
+}
+.redes ul li i.fa-instagram{
+    background: #b71540
+}
+.redes ul li i.fa-youtube{
+    background: #eb2f06
+}*/
+.fa-bars{
+    font-size: 35px;
+}
+/* ------------------------------ TABLET HORIZONTAL (LG REVISAMOS EN 1024PX) ----------------------- */
+@media (max-width:1199px) and (min-width:992px){
+
+
+}
+
+/* ------------------------------ TABLET VERTICAL (MD REVISAMOS EN 768PX)  ------------------------- */
+@media (max-width:991px) and (min-width:768px){
+    
+    header .logotipo{
+        width:85%;
+    }
+    
+    }
+
+/* ------------------------------ MOVIL HORIZONTAL (SM REVISAMOS EN 576PX)  ------------------------ */
+@media (max-width:767px) and (min-width:576px){
+
+    
+}
+
+/* ------------------------------ MOVIL VERTICAL (REVISAMOS EN 320PX)  ----------------------------- */
+@media (max-width:575px){
+   
+    header .logotipo{
+        width:60%;
+    }
+
+    .fa-bars{
+        font-size: 85px;
+    }
+}
+
+
+
