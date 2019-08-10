@@ -59,6 +59,18 @@ width: 100%;
     opacity: 0.3;
 }
 
+.fade-slider{
+    position: fixed;
+    z-index: -1;
+    top: 0%;
+    left: 0%;
+    
+    
+}
+.bannerEstatico{
+    background:red;
+    height: 300px;
+}
 /* ------------------------------ TABLET HORIZONTAL (LG REVISAMOS EN 1024PX) ----------------------- */
 @media (max-width:1199px) and (min-width:992px){
 

@@ -2,7 +2,7 @@
 /*                                   banner                                   */
 /* -------------------------------------------------------------------------- */
 
-$(".slider3-2").jdSlider({
+$(".fade-slider").jdSlider({
     slideShow: 3,
     isAuto: true,
     isLoop: true,
