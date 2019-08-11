@@ -16,7 +16,14 @@ a:visited, a:link, a:focus, a:hover, a:active{
 header .logotipo{
     width:35%;
 }
+header{
+    background: white;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index:5; 
 
+}
 /* ------------------------------ ICONOS REDES ------------------------------ */
 
 .redes ul li i{
@@ -54,23 +61,26 @@ width: 100%;
 /*                                   BANNER                                   */
 /* -------------------------------------------------------------------------- */
 
-
 .prev , .next{
     opacity: 0.3;
 }
 
-.fade-slider{
+/*#padinSlider{
+
+    padding-top: 50px;
+}*/
+#prll{
     position: fixed;
-    z-index: -1;
-    top: 0%;
-    left: 0%;
-    
-    
+     z-index: -1;
+     top: 0;
+     left: 0;
+
 }
-.bannerEstatico{
-    background:red;
-    height: 300px;
-}
+.bannerParallax{
+     background: rgb(0, 0, 0,0);
+    
+ }
+
 /* ------------------------------ TABLET HORIZONTAL (LG REVISAMOS EN 1024PX) ----------------------- */
 @media (max-width:1199px) and (min-width:992px){
 

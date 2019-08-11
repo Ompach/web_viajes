@@ -1,193 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- ----------------------------- PLUINS CSS ------------------------------ -->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/plugins/jquery.jdSlider.css" />
-    <link
-      rel="stylesheet"
-      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
-    />
-    <link rel="icon" href="img/icon logo trip.png" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Palanquin|Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <title>Document</title>
-  </head>
 
-  <body>
-    <!-- ----------------------------------------------------------------------- -->
-    <!--                           Header                                        -->
-    <!-- ----------------------------------------------------------------------- -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- ----------------------------- PLUINS CSS ------------------------------ -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/plugins/jquery.jdSlider.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="icon" href="img/icon logo trip.png" />
+  <link href="https://fonts.googleapis.com/css?family=Palanquin|Roboto&display=swap" rel="stylesheet" />
+  <title>Document</title>
+</head>
 
-    <header class="container-fluid">
-      <div class="container p-0">
-        <div class="row">
-          <!-- ------ logo ---- -->
-          <div class="py-2 col-10 col-md-4 col-lg-6 p-md-2 p-xl-1 ">
-            <a href="index.html">
-              <img
-                class="img-fluid logotipo"
-                src="img/logo-3.png"
-                alt="logo de Explorer the Word"
-              />
-            </a>
-          </div>
+<body>
+  <!-- ----------------------------------------------------------------------- -->
+  <!--                           Header                                        -->
+  <!-- ----------------------------------------------------------------------- -->
 
-          <!-- ------ Buscador  ---- -->
-          <div class="d-none d-md-block col-md-3 col-lg-3 pt-4   ">
-            <a href="#"
-              ><i
-                class=" fas fa-search lead text-muted  d-flex justify-content-end "
-              ></i
-            ></a>
-          </div>
+  <header class="container-fluid cabeceraColor">
+    <div class="container p-0">
+      <div class="row">
+        <!-- ------ logo ---- -->
+        <div class="py-2 col-10 col-md-4 col-lg-6 p-md-2 p-xl-1 ">
+          <a href="index.html">
+            <img class="img-fluid logotipo" src="img/logo-3.png" alt="logo de Explorer the Word" />
+          </a>
+        </div>
 
-          <!-- ------ Redes Sociales ---- -->
-          <div class="d-none d-md-block col-md-3  col-lg-2  redes pt-2 mt-1 ">
-            <ul class="d-flex justify-content-end ">
-              <li>
-                <a href="#" target="_blank">
-                  <i
-                    class=" fab fa-facebook-square lead rounded-circle text-white mr-1"
-                  ></i>
-                </a>
-              </li>
+        <!-- ------ Buscador  ---- -->
+        <div class="d-none d-md-block col-md-3 col-lg-3 pt-4   ">
+          <a href="#"><i class=" fas fa-search lead text-muted  d-flex justify-content-end "></i></a>
+        </div>
 
-              <li>
-                <a href="#" target="_blank">
-                  <i
-                    class="fab fa-instagram lead rounded-circle text-white mr-1"
-                  ></i>
-                </a>
-              </li>
+        <!-- ------ Redes Sociales ---- -->
+        <div class="d-none d-md-block col-md-3  col-lg-2  redes pt-2 mt-1 ">
+          <ul class="d-flex justify-content-end ">
+            <li>
+              <a href="#" target="_blank">
+                <i class=" fab fa-facebook-square lead rounded-circle text-white mr-1"></i>
+              </a>
+            </li>
 
-              <li>
-                <a href="#" target="_blank">
-                  <i
-                    class="fab fa-youtube lead rounded-circle text-white mr-1"
-                  ></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <!-- ------ Menu  ---- -->
-          <div class=" col-2 col-md-2 col-lg-1 pr-md-5 pt-md-3 py-3 d-flex ">
-            <a href="#"><i class="fas fa-bars lead text-muted pt-1 "></i></a>
-          </div>
+            <li>
+              <a href="#" target="_blank">
+                <i class="fab fa-instagram lead rounded-circle text-white mr-1"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" target="_blank">
+                <i class="fab fa-youtube lead rounded-circle text-white mr-1"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- ------ Menu  ---- -->
+        <div class=" col-2 col-md-2 col-lg-1 pr-md-5 pt-md-3 py-3 d-flex ">
+          <a href="#"><i class="fas fa-bars lead text-muted pt-1 "></i></a>
         </div>
       </div>
-    </header>
-
-    <!-- ------------------------ REDES SOCIALES MOVIL ------------------------- -->
-    <div class="d-block d-md-none redes redesMovil pt-2">
-      <ul class="d-flex justify-content-center p-0">
-        <li>
-          <a href="#" target="_blank">
-            <i
-              class=" fab fa-facebook-square lead rounded-circle text-white mr-3 mr-sm-4"
-            ></i>
-          </a>
-        </li>
-
-        <li>
-          <a href="#" target="_blank">
-            <i
-              class="fab fa-instagram lead rounded-circle text-white mr-3 mr-sm-4"
-            ></i>
-          </a>
-        </li>
-
-        <li>
-          <a href="#" target="_blank">
-            <i
-              class="fab fa-youtube lead rounded-circle text-white mr-3 mr-sm-4"
-            ></i>
-          </a>
-        </li>
-      </ul>
     </div>
+  </header>
 
-    <!-- -------------------------- FIN DE CONTENIDO --------------------------- -->
-
-    <!-- ----------------------------------------------------------------------- -->
-    <!--                                 BANNER                                  -->
-    <!-- ----------------------------------------------------------------------- -->
-    <div class="bannerEstatico">
-
-    <section class="jd-slider fade-slider">
-      <div class="slide-inner">
-        <ul class="slide-area ">
-          <li>
-            <img src="img/Rectangle -1@2x.png" alt="viaje a la playa" />
-          </li>
-          <li>
-            <img src="img/Rectangle -2@2x.png" alt="viaje a la playa" />
-          </li>
-          <li>
-            <img src="img/Rectangle -3@2x.png" alt="viaje a la playa" />
-          </li>
-          <li>
-            <img src="img/Rectangle -4@2x.png" alt="viaje a la playa" />
-          </li>
-          <li>
-            <img src="img/Rectangle -2@2x.png" alt="viaje a la playa" />
-          </li>
-          <li>
-            <img src="img/Rectangle -3@2x.png" alt="viaje a la playa" />
-          </li>
-        </ul>
-        <a class="prev p-4" href="#">
-          <i class="fas fa-angle-left fa-2x"></i>
+  <!-- ------------------------ REDES SOCIALES MOVIL ------------------------- -->
+  <div class="d-block d-md-none redes redesMovil pt-2">
+    <ul class="d-flex justify-content-center p-0">
+      <li>
+        <a href="#" target="_blank">
+          <i class=" fab fa-facebook-square lead rounded-circle text-white mr-3 mr-sm-4"></i>
         </a>
-        <a class="next p-4" href="#">
-          <i class="fas fa-angle-right fa-2x"></i>
+      </li>
+
+      <li>
+        <a href="#" target="_blank">
+          <i class="fab fa-instagram lead rounded-circle text-white mr-3 mr-sm-4"></i>
         </a>
+      </li>
+
+      <li>
+        <a href="#" target="_blank">
+          <i class="fab fa-youtube lead rounded-circle text-white mr-3 mr-sm-4"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- -------------------------- FIN DE CONTENIDO --------------------------- -->
+
+  <!-- ----------------------------------------------------------------------- -->
+  <!--                                 BANNER                                  -->
+  <!-- ----------------------------------------------------------------------- -->
+  <div class="bannerParallax"></div>
+  
+    <div class="container-fluid " id="prll">
+      <section class="jd-slider fade-slider">
+        <div class="slide-inner pt-3">
+          <ul class="slide-area pt-5">
+            <li>
+              <img src="img/Rectangle -1@2x.png" alt="viaje a la playa" />
+            </li>
+            <li>
+              <img src="img/Rectangle -2@2x.png" alt="viaje a la playa" />
+            </li>
+            <li>
+              <img src="img/Rectangle -3@2x.png" alt="viaje a la playa" />
+            </li>
+            <li>
+              <img src="img/Rectangle -4@2x.png" alt="viaje a la playa" />
+            </li>
+            <li>
+              <img src="img/Rectangle -2@2x.png" alt="viaje a la playa" />
+            </li>
+            <li>
+              <img src="img/Rectangle -3@2x.png" alt="viaje a la playa" />
+            </li>
+          </ul>
+          <a class="prev p-4" href="#">
+            <i class="fas fa-angle-left fa-2x"></i>
+          </a>
+          <a class="next p-4" href="#">
+            <i class="fas fa-angle-right fa-2x"></i>
+          </a>
+        </div>
+        <div class="controller d-none">
+          <a class="auto" href="#">
+            <i class="fas fa-play fa-xs"></i>
+            <i class="fas fa-pause fa-xs"></i>
+          </a>
+          <div class="indicate-area"></div>
+        </div>
+      </section>
+    </div>
+  
+  
+  <!-- --------------------------- buscador movil ---------------------------- -->
+
+  <div class="container d-block d-md-none py-2">
+    <div class="input-group input-group-sm">
+      <input type="text" class="form-control" placeholder="Buscar" />
+      <div class="input-group-append">
+        <span class="input-group-text"><a href="#"><i class=" fas fa-search"></i></a></span>
       </div>
-      <div class="controller d-none">
-        <a class="auto" href="#">
-          <i class="fas fa-play fa-xs"></i>
-          <i class="fas fa-pause fa-xs"></i>
-        </a>
-        <div class="indicate-area"></div>
-      </div>
-    </section>
+    </div>
+  </div>
+
+  <!-- ----------------------------------------------------------------------- -->
+  <!--                             CONTENIDO BLOG                              -->
+  <!-- ----------------------------------------------------------------------- -->
+
+  <div class="container-fluid bg-white">
+    <H1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus similique, vitae perspiciatis ab
+        obcaecati eveniet fugit maxime, eius sequi illo laborum temporibus possimus incidunt assumenda eligendi illum
+        molestiae quisquam deleniti Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dignissimos ipsam nisi sint reprehenderit eveniet a quaerat, sequi similique ipsum, autem quas nulla corrupti accusamus error itaque doloremque accusantium vitae quisquam ut modi explicabo totam numquam. Eum molestias velit sapiente accusamus at! Suscipit rerum et dolore maxime, libero asperiores iusto consequatur, minus nobis deleniti nulla assumenda ipsam inventore hic dolorem officia iure minima at repellat. Nobis, sit quia, repellat hic dolorum ullam dolor ea corporis repellendus sunt maxime, quisquam nisi sapiente! Quibusdam, fugiat. Commodi eveniet sapiente provident tenetur, consectetur laudantium? Culpa non deleniti, nihil beatae ad ipsum id recusandae temporibus!.
+      </H1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi repudiandae repellat quae! Porro mollitia doloribus corrupti, nihil voluptatibus alias vero odit sunt quasi consectetur ullam nisi nostrum. Pariatur natus quos magnam, alias rem deleniti, iure labore tempora asperiores eaque, ratione eligendi debitis quasi itaque non! Eos consequuntur eum repellendus facilis nulla, mollitia labore laudantium. Obcaecati deleniti porro nulla vero facere repudiandae libero veniam dolorem corrupti quisquam, numquam impedit totam perspiciatis mollitia iure. Exercitationem nihil consequatur adipisci quae, qui ut ex libero, ad, rerum voluptates aspernatur quia consectetur nam distinctio est! Quis, ut! Inventore explicabo, minima laborum maiores totam reiciendis voluptatem iste fugit veritatis voluptate at sunt quod, repudiandae illum laudantium labore? A odio in alias repudiandae consequuntur beatae illo facilis, doloribus animi maxime dolorem omnis. Sed, error quaerat nemo placeat maiores ea excepturi officiis fugit. Perspiciatis debitis, veritatis iusto officia voluptas quia pariatur esse sit sequi eligendi! Quos esse consectetur tempore quia tempora quidem veritatis. Facere sapiente, pariatur sit voluptas veniam temporibus? Temporibus neque inventore corporis voluptatum perferendis sit illo? Incidunt pariatur, eveniet ad quod quo cum laborum error! Molestiae, ad facilis possimus illum mollitia velit fugit, nulla corrupti nesciunt, quam dignissimos voluptatibus soluta et qui blanditiis tenetur. Amet libero repudiandae molestiae culpa ullam nulla, excepturi sunt aliquid harum, blanditiis neque repellat nobis molestias numquam ratione. Minima quasi aperiam laudantium accusantium, dolores nihil est commodi tenetur nemo vero iste harum perspiciatis a eum repellat cupiditate quisquam? Consequuntur cumque officia omnis vel et placeat neque in molestiae sapiente beatae. Alias eveniet magnam dolore harum nemo enim, voluptatem, perspiciatis iusto vero ipsa impedit magni quasi officiis incidunt voluptatum! Perspiciatis beatae architecto dolorum necessitatibus fugit est voluptates ullam dolor repellendus molestiae obcaecati, deserunt voluptate voluptatem distinctio. Aut, facilis praesentium ipsam omnis iste provident! Reiciendis iste libero, est quo culpa impedit quia a exercitationem ducimus rerum porro excepturi aut repellat sed perspiciatis quaerat soluta laudantium non ut obcaecati architecto. Quo unde repudiandae exercitationem quis. Tempora aperiam, deserunt corrupti libero nisi explicabo molestiae optio id quisquam, asperiores voluptatem natus tempore fuga praesentium. Voluptatum labore aliquid pariatur ullam nisi neque beatae sunt vitae laborum! Commodi quia dolores, possimus maiores dicta sint reprehenderit earum nobis eius nesciunt esse eligendi accusamus sed at hic itaque ab tempora perferendis autem iure est. Earum dolorum minima eaque, beatae distinctio commodi temporibus nisi repellendus sapiente sit, quos nemo repudiandae maxime, provident similique ad sed aperiam odio. Dicta dolor eaque quisquam doloremque impedit. Molestiae laborum excepturi sed id consequuntur aut illum amet quos similique reprehenderit perspiciatis quidem quasi tempora itaque, mollitia tenetur explicabo. Pariatur magnam accusamus quaerat inventore. Eum beatae rerum, consequuntur maiores iusto, esse excepturi dolore amet expedita labore corporis nisi fugiat eius porro ullam tempora eligendi facilis dignissimos eaque voluptate quis enim. Quasi vitae eos, cumque quidem voluptates animi dolor fugit veniam doloribus accusantium magnam dolore deserunt facilis ut recusandae vero aspernatur magni deleniti reiciendis harum neque saepe omnis reprehenderit. Veritatis, dicta iure? Tempore, fugit. Natus amet consequuntur animi eos tenetur deserunt, rerum eum rem nam facilis, quos, blanditiis quas!</p>
 </div>
-    <!-- --------------------------- buscador movil ---------------------------- -->
+  
 
-    <div class="container d-block d-md-none py-2">
-      <div class="input-group input-group-sm">
-        <input type="text" class="form-control" placeholder="Buscar" />
-        <div class="input-group-append">
-          <span class="input-group-text"
-            ><a href="#"><i class=" fas fa-search"></i></a
-          ></span>
-        </div>
-      </div>
-    </div>
+  <!-- ----------------------------------------------------------------------- -->
+  <!--                               PLUGUINS JS                               -->
+  <!-- ----------------------------------------------------------------------- -->
 
-    <!-- ----------------------------------------------------------------------- -->
-    <!--                             CONTENIDO BLOG                              -->
-    <!-- ----------------------------------------------------------------------- -->
+  <script src="https://kit.fontawesome.com/53c00e7122.js"></script>
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="js/pluguins/jquery.jdSlider-latest.js"></script>
+  <script src="js/script.js"></script>
+</body>
 
-    <H1>HOLA MUNDO</H1>
-
-    <!-- ----------------------------------------------------------------------- -->
-    <!--                               PLUGUINS JS                               -->
-    <!-- ----------------------------------------------------------------------- -->
-
-    <script src="https://kit.fontawesome.com/53c00e7122.js"></script>
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="js/pluguins/jquery.jdSlider-latest.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="js/script.js"></script>
-  </body>
 </html>
