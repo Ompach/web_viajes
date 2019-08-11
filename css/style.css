@@ -67,6 +67,29 @@ width: 100%;
 
 
 
+/* -------------------------------------------------------------------------- */
+/*                                    MENU                                    */
+/* -------------------------------------------------------------------------- */
+
+.menu{
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    height:100% ;
+    width: 40%;
+    z-index: 100%;
+    background: #183753;
+    opacity: .9;
+    overflow-x: hidden;
+display: block;
+
+}
+
+
+
+
+
 /* ------------------------------ TABLET HORIZONTAL (LG REVISAMOS EN 1024PX) ----------------------- */
 @media (max-width:1199px) and (min-width:992px){
 
