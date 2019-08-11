@@ -3,18 +3,11 @@
 /* -------------------------------------------------------------------------- */
 
 $(".fade-slider").jdSlider({
-    slideShow: 5,
+    slideShow: 3,
     isAuto: true,
     isLoop: true,
-    interval: 6000,
+    interval: 5000,
     isCursor: true,
-
-
-   
-
 });
 
 
-var alturaBanner = $(".fade-slider").height();
-$(".bannerParallax").css({"height": alturaBanner+"px"})
- 
