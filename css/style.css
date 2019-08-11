@@ -72,15 +72,17 @@ width: 100%;
 /* ------------------------------ TABLET HORIZONTAL (LG REVISAMOS EN 1024PX) ----------------------- */
 @media (max-width:1199px) and (min-width:992px){
 
- 
+    header .logotipo{
+        width:85%;
     }
-}
+    }
+
 
 /* ------------------------------ TABLET VERTICAL (MD REVISAMOS EN 768PX)  ------------------------- */
 @media (max-width:991px) and (min-width:768px){
     
-    .logotipo{
-        width:65%;
+    header .logotipo{
+        width:67%;
     }
     
     }
