@@ -1,6 +1,6 @@
 /* ------------------------------ ESCRITORIO (XL REVISAMOS EN 1366PX EN ADELANTE) ----------------------------- */
 *{
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
 
 /* ---font-family: 'Palanquin', sans-serif; --- */
 }
@@ -65,12 +65,33 @@ width: 100%;
     opacity: 0.3;
 }
 
+#photosBanner{
+    cursor: pointer;
+    transition:0.3s; 
+}
+#photosBanner:hover{
+    transform: scale(1.2)
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 NAVEGACION                                 */
+/* -------------------------------------------------------------------------- */
+
+#textoMenu {
+
+font-family: 'Heebo', sans-serif;
+font-weight: bold;
+
+font-size: 18px;
+
+}
+
 
 
 
 
 /* ------------------------------ TABLET HORIZONTAL (LG REVISAMOS EN 1024PX) ----------------------- */
-@media (max-width:1199px) and (min-width:992px){
+@media (max-width:2560px) and (min-width:992px){
 
     header .logotipo{
         width:85%;
