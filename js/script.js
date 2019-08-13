@@ -3,11 +3,28 @@
 /* -------------------------------------------------------------------------- */
 
 $(".fade-slider").jdSlider({
-    slideShow: 3,
+    isSliding: false,
     isAuto: true,
     isLoop: true,
     interval: 5000,
-    isCursor: true,
+    isCursor: false,
+    resize : true,
+    flexible : true,
+    isDrag: false,
+    speed: 3000,
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

@@ -60,19 +60,25 @@ width: 100%;
 /* -------------------------------------------------------------------------- */
 /*                                   BANNER                                   */
 /* -------------------------------------------------------------------------- */
-
+.bannerColor{
+height: 300px;
+background: #273c75;
+}
 .prev , .next{
     opacity: 0.3;
 }
 
-#photosBanner{
-    cursor: pointer;
-    transition:0.3s; 
-}
-#photosBanner:hover{
-    transform: scale(1.2)
+.next{
+    position: relative;
+    right:300px ; 
 }
 
+
+.textCard p  {
+
+    font-size:15px;
+    line-height : 15px;
+}
 /* -------------------------------------------------------------------------- */
 /*                                 NAVEGACION                                 */
 /* -------------------------------------------------------------------------- */
@@ -80,9 +86,9 @@ width: 100%;
 #textoMenu {
 
 font-family: 'Heebo', sans-serif;
-font-weight: bold;
+font-weight:500px;
 
-font-size: 18px;
+font-size: 15px;
 
 }
 
@@ -93,8 +99,9 @@ font-size: 18px;
 /* ------------------------------ TABLET HORIZONTAL (LG REVISAMOS EN 1024PX) ----------------------- */
 @media (max-width:2560px) and (min-width:992px){
 
+}
     header .logotipo{
-        width:85%;
+        width:65%;
     }
     }
 
@@ -120,9 +127,20 @@ font-size: 18px;
     header .logotipo{
         width:60%;
     }
+    .textCard h5  {
+
+        font-size:15px;
+    }
+
+    .textBtn h6 {
+       font-size:11px;
+       line-height : 10px;
+    }
+
 
     .fa-bars{
         font-size: 85px;
+        line-height : 25px;
     }
 }
 
