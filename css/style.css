@@ -118,26 +118,50 @@ font-size: 15px;
 /* ------------------------------ TABLET HORIZONTAL (LG REVISAMOS EN 1024PX) ----------------------- */
 @media (max-width:2560px) and (min-width:992px){
 
-}
+    .bnTx1{
+        line-height : 25px;
+    }
+   
     header .logotipo{
-        width:65%;
+        width:95%;
     }
-    }
+
+
+}
+
+  
+    
+
+    
 
 
 /* ------------------------------ TABLET VERTICAL (MD REVISAMOS EN 768PX)  ------------------------- */
 @media (max-width:991px) and (min-width:768px){
     
+    .bnTx1{
+        line-height : 25px;
+    }
+    .tagCT {
+        line-height : 15px;
+    }
+    .btnCT a {
+        font-size:10px
+        
+    }
+    
     header .logotipo{
         width:67%;
     }
     
+    
+
     }
+    
 
 /* ------------------------------ MOVIL HORIZONTAL (SM REVISAMOS EN 576PX)  ------------------------ */
 @media (max-width:767px) and (min-width:576px){
     
-    
+   
 }
 
 /* ------------------------------ MOVIL VERTICAL (REVISAMOS EN 320PX)  ----------------------------- */
@@ -161,6 +185,9 @@ font-size: 15px;
         font-size: 85px;
         line-height : 25px;
     }
+
+
+    
 }
 
 
