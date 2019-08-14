@@ -81,6 +81,7 @@ opacity: 0.8;
 /*                                 CARDS MENU                                 */
 /* -------------------------------------------------------------------------- */
 
+
 .categorias{
     color: aliceblue;
 }
@@ -118,15 +119,10 @@ font-size: 15px;
 /* ------------------------------ TABLET HORIZONTAL (LG REVISAMOS EN 1024PX) ----------------------- */
 @media (max-width:2560px) and (min-width:992px){
 
-    .bnTx1{
-        line-height : 25px;
-    }
-   
+    
     header .logotipo{
-        width:95%;
+        width:57%;
     }
-
-
 }
 
   
@@ -137,6 +133,9 @@ font-size: 15px;
 
 /* ------------------------------ TABLET VERTICAL (MD REVISAMOS EN 768PX)  ------------------------- */
 @media (max-width:991px) and (min-width:768px){
+    
+    
+    
     
     .bnTx1{
         line-height : 25px;
@@ -166,7 +165,17 @@ font-size: 15px;
 
 /* ------------------------------ MOVIL VERTICAL (REVISAMOS EN 320PX)  ----------------------------- */
 @media (max-width:575px){
-   
+    
+
+    .bnTx1{
+        font-size: 185%;
+        line-height : 25px;
+    }
+
+    .bnTx2{
+        font-size: 125%;
+        line-height : 25px;
+    }
     header .logotipo{
         width:60%;
     }
