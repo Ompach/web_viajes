@@ -123,10 +123,21 @@ font-size: 15px;
 /* -------------------------------------------------------------------------- */
 
 .comentSt{
+    border-radius: 10px;
     background: #222f3e;
 }
 
+/* -------------------------------------------------------------------------- */
+/*                                   FOOTER                                   */
+/* -------------------------------------------------------------------------- */
 
+
+.colorFT{
+    background: #222f3e;
+}
+.imgFT{
+    width: 35%;
+}
 /* ------------------------------ TABLET HORIZONTAL (LG REVISAMOS EN 1024PX) ----------------------- */
 @media (max-width:2560px) and (min-width:992px){
 
@@ -149,7 +160,8 @@ font-size: 15px;
     
     
     .bnTx1{
-        line-height : 25px;
+        
+        line-height: 25px;
     }
     .tagCT {
         line-height : 15px;
@@ -179,6 +191,7 @@ font-size: 15px;
     
 
     .bnTx1{
+        padding-top: 5%;
         font-size: 185%;
         line-height : 25px;
     }
