@@ -216,6 +216,7 @@ font-size: 15px;
     
     header .logotipo{
         width:57%;
+        
     }
 }
 
@@ -234,7 +235,7 @@ font-size: 15px;
     
     
     .bnTx1{
-        
+        font-size:45px; 
         line-height: 25px;
     }
     .tagCT {
@@ -255,13 +256,23 @@ font-size: 15px;
     
 
 /* ------------------------------ MOVIL HORIZONTAL (SM REVISAMOS EN 576PX)  ------------------------ */
-@media (max-width:767px) and (min-width:576px){
+@media (max-width:767px) and (min-width:425px){
     
-   
+    .bnTx1{
+        padding-top: 8%;
+        font-size: 185%;
+        line-height : 25px;
+    }
+    header .logotipo{
+        width:37%;
+        position: fixed;
+        left: 45%;
+        top: 1.2%;
+    }
 }
 
 /* ------------------------------ MOVIL VERTICAL (REVISAMOS EN 320PX)  ----------------------------- */
-@media (max-width:475px){
+@media (max-width:375px){
    
    
     #topBtn{
@@ -293,8 +304,8 @@ font-size: 15px;
         width: 45%;
     }
     .bnTx1{
-        padding-top: 12%;
-        font-size: 185%;
+        padding-top: 11%;
+        font-size: 145%;
         line-height : 25px;
     }
 
@@ -303,7 +314,10 @@ font-size: 15px;
         line-height : 25px;
     }
     header .logotipo{
-        width:55%;
+        position: fixed;
+        left: 45%;
+        top: 1.5%;
+        width:35%;
     }
     .textCard h5  {
 
