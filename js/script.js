@@ -19,9 +19,9 @@
 
 
     .setClassToggle('#carTxtag01', 'fade-in')
-    .addIndicators({
+  /*  .addIndicators({
         name: "TITULO 01",
-    })
+    })*/
     .addTo(controller);
 
 
@@ -37,9 +37,9 @@
     
 
     .setClassToggle('#carDstag01', 'fade-in')
-    .addIndicators({
+   /* .addIndicators({
         name: "CARTA 01"
-    })
+    })*/
     .addTo(controller);
 
 
@@ -54,9 +54,9 @@
     
 
 .setClassToggle('#carDstag02', 'fade-in')
-.addIndicators({
+/*.addIndicators({
     name: "CARTA 02"
-})
+})*/
 .addTo(controller);
 
 
@@ -70,9 +70,9 @@ var ourScene3 = new ScrollMagic.Scene({
     
 
 .setClassToggle('#carDstag03', 'fade-in')
-.addIndicators({
+/*.addIndicators({
     name: "CARTA 03"
-})
+})*/
 .addTo(controller);
 
 ///Creando Scena4
@@ -85,9 +85,9 @@ var ourScene4 = new ScrollMagic.Scene({
     
 
 .setClassToggle('#carTxtag02', 'fade-in')
-.addIndicators({
+/*.addIndicators({
     name: "CARTA 04"
-})
+})*/
 .addTo(controller);
 
 
@@ -101,19 +101,76 @@ var ourScene5 = new ScrollMagic.Scene({
     
 
 .setClassToggle('#carTxtag03', 'fade-in')
-.addIndicators({
+/*.addIndicators({
     name: "CONTENIDO"
-})
+})*/
 .addTo(controller);
 
 
 
 
+/* -------------------------------------------------------------------------- */
+/*                                  [RELOAD]                                  */
+/* -------------------------------------------------------------------------- */
+
+var cagarImg = $("img");
+var cargarScript =$("script");
+var cargarCss = $("link");
+var cargarVideos = $("video");
+var cargarAudios = $("audio");
+
+var totalObjetos = [];
+var numItem =0;
+var valorporsentaje = 0;
+var incremento = 0;
+var numerocarga =0;
+
+totalObjetos.push(cagarImg,cargarScript,cargarCss,cargarVideos,cargarAudios);
+
+totalObjetos.forEach(funcionForEach);
+console.log(totalObjetos);
+
+function funcionForEach(item,_index){
+    for(var i=0; i<item.length; i++){
+       numItem ++; 
+        valorporsentaje = 100/numItem;
+    }
+
+    for (var i = 0; i< item.length; i++){
+
+        $(item[i]).ready(function(){
+
+            numerocarga++; 
+            incremento = Math.ceil(numerocarga * valorporsentaje);
+            
+            
+            if(incremento >= 100){
+                $("#preload").delay(150).fadeOut("slow");
+                $("body").delay(350).css({"overflow-y":"scroll"});
+    
+            }
+            
+            
+        })
+         
+        
+        
+    }
+
+}
 
 
+/* -------------------------------------------------------------------------- */
+/*                                  SCROLLUP                                  */
+/* -------------------------------------------------------------------------- */
+$(window).scroll(function(){
+    if($(this).scrollTop() > 60){
+      $('#topBtn').fadeIn();
+    } else{
+      $('#topBtn').fadeOut();
+    }
+  });
 
-
-
-
-
-
+  $("#topBtn").click(function(){
+    $('html ,body').animate({scrollTop : 0},800);
+  });
