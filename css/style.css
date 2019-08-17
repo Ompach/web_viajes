@@ -261,7 +261,7 @@ font-size: 15px;
 }
 
 /* ------------------------------ MOVIL VERTICAL (REVISAMOS EN 320PX)  ----------------------------- */
-@media (max-width:575px){
+@media (max-width:475px){
    
    
     #topBtn{
@@ -293,7 +293,7 @@ font-size: 15px;
         width: 45%;
     }
     .bnTx1{
-        padding-top: 5%;
+        padding-top: 12%;
         font-size: 185%;
         line-height : 25px;
     }
@@ -303,7 +303,7 @@ font-size: 15px;
         line-height : 25px;
     }
     header .logotipo{
-        width:57%;
+        width:55%;
     }
     .textCard h5  {
 
