@@ -138,27 +138,36 @@ function funcionForEach(item,_index){
 
     for (var i = 0; i< item.length; i++){
 
-        $(item[i]).ready(function(){
-
-            numerocarga++; 
-            incremento = Math.ceil(numerocarga * valorporsentaje);
-            
-            
-            if(incremento >= 100){
-                $("#preload").delay(150).fadeOut("slow");
-                $("body").delay(350).css({"overflow-y":"scroll"});
-    
-            }
-            
-            
-        })
-         
+        preload(i, item)
         
         
     }
 
 }
 
+function preload(i, item) {
+    
+
+
+setTimeout(function() {
+    $(item[i]).ready(function(){
+
+        numerocarga++; 
+        incremento = Math.ceil(numerocarga * valorporsentaje);
+        
+        console.log(numerocarga);
+        
+        
+        $("#numCarga").html(incremento + "%");
+        
+        if(incremento >= 100){
+            $("#preload").delay(350).fadeOut("slow");
+            $("body").delay(350).css({"overflow-y":"scroll"});
+
+        }
+        
+     })
+},i*100)}
 
 /* -------------------------------------------------------------------------- */
 /*                                  SCROLLUP                                  */

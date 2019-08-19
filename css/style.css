@@ -24,21 +24,51 @@ header{
     z-index:5; 
 }
 
+
+
 #preload{
+    
     position: fixed;
-   z-index: 50;
-   width: 100%;
-   height: 100%;
+    
+    z-index: 100;
+    width: 100%;
+    height: 100%; 
+    margin:auto;
+    
+
+    
+   
 }
-.estadoCarga{
+#numCarga{
     position: absolute;
     text-align: center;
-    width: 100%;
-    height: 100%;
+    width:auto;
+    
     top: 50%;
     left: 50%;
-    
+    margin:auto;
+    padding: 1%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+    border-radius: 5px;
+    background-color: #e74c3c
+   
 }
+
+#estadocarga{
+    position: absolute;
+    background: url(/img/page-preloader.gif);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+
+}
+    
+
 /* ------------------------------ ICONOS REDES ------------------------------ */
 
 .redes ul li i{
@@ -247,7 +277,7 @@ font-size: 15px;
     }
     
     header .logotipo{
-        width:67%;
+        width:47%;
     }
     
     
