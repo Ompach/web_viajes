@@ -294,7 +294,7 @@ font-size: 15px;
     
 
 /* ------------------------------ MOVIL HORIZONTAL (SM REVISAMOS EN 576PX)  ------------------------ */
-@media (max-width:480px) and (min-width:319px){
+@media (max-width:480px) and (min-width:374px){
     
     .bnTx1{
         padding-top: 8%;
@@ -310,7 +310,7 @@ font-size: 15px;
 }
 
 /* ------------------------------ MOVIL VERTICAL (REVISAMOS EN 320PX)  ----------------------------- */
-@media (max-width:320px){
+@media (max-width:375px){
    
    
     #topBtn{
@@ -354,7 +354,7 @@ font-size: 15px;
     header .logotipo{
         position: fixed;
         left: 47%;
-        top: 2.7%;
+        top: 2%;
         width:35%;
     }
     .textCard h5  {
