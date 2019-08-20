@@ -249,7 +249,10 @@ font-size: 15px;
 /* ------------------------------ TABLET HORIZONTAL (LG REVISAMOS EN 1024PX) ----------------------- */
 @media (max-width:1440px) and (min-width:767px){
 
-    
+    .btnCT a {
+        font-size:18px
+        
+    }
     header .logotipo{
         width:57%;
         
@@ -298,15 +301,22 @@ font-size: 15px;
     
 
 /* ------------------------------ MOVIL HORIZONTAL (SM REVISAMOS EN 576PX)  ------------------------ */
-@media (max-width:574px) and (min-width:374px){
+@media (max-width:576px) and (min-width:424px){
     
-    .tagCT{
-        font-size: 50px;
+    .ziseImg{
+        height:6rem;
+
     }
 
+    .tagCT{
+        font-size: 25px;
+        
+    }
+    
     .btnCT a{
 
-        font-size: 20px;
+        font-size: 14px;
+        
 
     }
 
@@ -326,7 +336,11 @@ font-size: 15px;
 
 /* ------------------------------ MOVIL VERTICAL (REVISAMOS EN 320PX)  ----------------------------- */
 @media (max-width:425px) and (min-width:375px){
-   
+    
+    .ziseImg{
+        height:8rem;
+
+    }
    
     #topBtn{
         position: fixed;
@@ -365,7 +379,7 @@ font-size: 15px;
         width: 45%;
     }
     .bnTx1{
-        padding-top: 11%;
+        padding-top: 8%;
         font-size: 145%;
         line-height : 25px;
     }
