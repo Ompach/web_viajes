@@ -160,7 +160,7 @@ setTimeout(function() {
         
         $("#numCarga").html(incremento + "%");
         
-        if(incremento >= 100){
+        if(incremento = 100){
             $("#preload").delay(350).fadeOut("slow");
             $("body").delay(350).css({"overflow-y":"scroll"});
 
