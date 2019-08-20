@@ -302,9 +302,9 @@ font-size: 15px;
         line-height : 25px;
     }
     header .logotipo{
-        width:37%;
+        width:34%;
         position: fixed;
-        left: 45%;
+        left: 49%;
         top: 1.2%;
     }
 }
@@ -353,8 +353,8 @@ font-size: 15px;
     }
     header .logotipo{
         position: fixed;
-        left: 45%;
-        top: 1.5%;
+        left: 47%;
+        top: 2%;
         width:35%;
     }
     .textCard h5  {
