@@ -247,7 +247,7 @@ font-size: 15px;
 
 
 /* ------------------------------ TABLET HORIZONTAL (LG REVISAMOS EN 1024PX) ----------------------- */
-@media (max-width:2560px) and (min-width:767px){
+@media (max-width:2560px){
 
     .btnCT a {
         font-size:18px
