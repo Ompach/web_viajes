@@ -99,7 +99,7 @@ cursor: pointer;
 
 .redesMovil{
 position: fixed;
-bottom: -5px;
+bottom: -1px;
 left: 50%;
 transform: translate(-50%,0%);
 background: #273c75;
@@ -241,7 +241,7 @@ font-size: 15px;
     display: none;
   }
   
-
+  
 /* ------------------------------ TABLET HORIZONTAL (LG REVISAMOS EN 1024PX) ----------------------- */
 @media (max-width:1024px) and (min-width:767px){
 
@@ -259,7 +259,7 @@ font-size: 15px;
 
 
 /* ------------------------------ TABLET VERTICAL (MD REVISAMOS EN 768PX)  ------------------------- */
-@media (max-width:768px) and (min-width:479px){
+@media (max-width:768px) and (min-width:575px){
     
     .imgFT{
         width: 65%;
@@ -281,10 +281,10 @@ font-size: 15px;
     header .logotipo{
         
 
-        width:20%;
+        width:18%;
         position: fixed;
         left: 65%;
-        top: 1%;
+        top: 2%;
 
     }
     
@@ -294,23 +294,34 @@ font-size: 15px;
     
 
 /* ------------------------------ MOVIL HORIZONTAL (SM REVISAMOS EN 576PX)  ------------------------ */
-@media (max-width:480px) and (min-width:374px){
+@media (max-width:574px) and (min-width:374px){
     
+    .tagCT{
+        font-size: 50px;
+    }
+
+    .btnCT a{
+
+        font-size: 20px;
+
+    }
+
+
     .bnTx1{
         padding-top: 8%;
         font-size: 185%;
-        line-height : 25px;
+        line-height : 11px;
     }
     header .logotipo{
-        width:34%;
+        width:25%;
         position: fixed;
-        left: 49%;
-        top: 1.2%;
+        left: 55%;
+        top: 2%;
     }
 }
 
 /* ------------------------------ MOVIL VERTICAL (REVISAMOS EN 320PX)  ----------------------------- */
-@media (max-width:375px){
+@media (max-width:425px) and (min-width:375px){
    
    
     #topBtn{
@@ -328,7 +339,15 @@ font-size: 15px;
         display: none;
       }
       
-   
+      .tagCT{
+        font-size: 25px;
+    }
+
+    .btnCT a{
+
+        font-size: 15px;
+
+    }
    
    
     .textFT{
